@@ -1,3 +1,5 @@
 *.pdf
 *.gv
 *.pyc
+pjn
+pjn/*

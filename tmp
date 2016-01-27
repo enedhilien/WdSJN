@@ -1,0 +1,7 @@
+for f in data/*.snippets.txt; do  python -m snippet_coupler $f  >> $f.coupled.txt; done
+
+
+      u'bandyta' : parse_csv('data/bandyta.csv'),
+      u'kradzież' : parse_csv('data/kradziez.csv'),
+      u'złodziej' : parse_csv('data/zlodziej.csv'),
+      u'zły' : parse_csv('data/zly.csv')

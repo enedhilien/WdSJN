@@ -29,10 +29,10 @@ def draw_graph(centroid, graph):
 
 def main():
   dataset = {
-      u'ból' : parse_csv('data/bol.csv'),
-      u'głowa' : parse_csv('data/glowa.csv'),
-      u'smutek' : parse_csv('data/smutek.csv'),
-      u'strach' : parse_csv('data/strach.csv')
+      u'bandyta' : parse_csv('data/bandyta.csv'),
+      u'kradzież' : parse_csv('data/kradziez.csv'),
+      u'złodziej' : parse_csv('data/zlodziej.csv'),
+      u'zły' : parse_csv('data/zly.csv')
   }
   for key in dataset:
     draw_graph(key, dataset)
